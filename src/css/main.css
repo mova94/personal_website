@@ -2,3 +2,8 @@
     border: teal;
     border-style: double;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
