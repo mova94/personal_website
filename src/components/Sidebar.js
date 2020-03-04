@@ -8,8 +8,11 @@ import { Nav } from 'react-bootstrap';
 function Sidebar() {
     //WILL USE REACT-ROUTER OR AUTOMATION SCROLL 
     return(
-        <div className= "Sidebar">
-            <Navbar bg="dark" expand="lg">
+        <div className= "Sidebar" 
+        data-aos="fade-right" 
+        data-aos-duration="3000">
+
+            <Navbar bg="dark" variant="dark" expand="lg">
                 <Nav className="flex-column">
                     <Nav.Item>
                         <Nav.Link href="#">About</Nav.Link>

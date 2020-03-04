@@ -1,6 +1,7 @@
 .Main{
     border: teal;
     border-style: double;
+    background-color: lightslategray;
 }
 
 .container{
