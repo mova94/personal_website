@@ -1,0 +1,10 @@
+do media queries
+    -navbar should be on top 
+    -content should be below and AOS should work as user scrolls down
+    -AOS for content stuff should be coming left or right
+
+figure out how to make components take up the whole screen vs a small portion 
+
+link up Icons for social media(add github as well)
+
+figure out what to do after carousel content-wise

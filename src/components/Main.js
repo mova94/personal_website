@@ -16,8 +16,8 @@ class Main extends React.Component {
             <div className="Main">  
                 <Container fluid="true">
                     <Row>
-                        <Col md={3}> <Sidebar/> </Col>
-                        <Col md={9}> <Content/> </Col>                
+                        <Col sm={12} md={3}> <Sidebar/> </Col>
+                        <Col sm={12} md={9}> <Content/> </Col>                
                     </Row>
                 </Container>
             </div>
