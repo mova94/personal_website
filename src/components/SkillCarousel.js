@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Carousel } from "react-bootstrap";
 
+import '../css/skillcarousel.css';
+
 function SkillCarousel(params) {
     return(
          <Carousel>

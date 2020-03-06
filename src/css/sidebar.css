@@ -1,20 +1,39 @@
-.Sidebar{
-    border: turquoise;
-    border-style: solid;
-    height: 100%;
-}
+.Sidebar {
+        border: turquoise;
+        border-style: solid;
+        height: 70%;
+        position: fixed;
+        justify-content: center;
+        
+    }
+
+
+
+/* @media only screen and (max-width: 480px){
+    .Sidebar{
+        border: red;
+        border-style: solid;
+    }
+} */
 
 .navbar{
     height: 100%;
     width: auto;
     position: fixed;
     color: beige;
+    top: 0;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.director{
+    margin: 5px;
 }
 
 #self{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .emailId{
@@ -22,6 +41,3 @@
 }
 
 
-.socialIcons:hover{
-    font-size: larger;
-}

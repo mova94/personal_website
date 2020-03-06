@@ -1,0 +1,7 @@
+.socialIcons{
+    margin-top: 100px;
+}
+
+.socialIcons:hover{
+    font-size: larger;
+}

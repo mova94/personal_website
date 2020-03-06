@@ -6,14 +6,9 @@ import { Nav } from "react-bootstrap";
 // import { Button } from 'react-bootstrap';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faTwitch,
-  faInstagram,
-  faLinkedin,
-  faGoogle
-} from "@fortawesome/free-brands-svg-icons";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+
+import SocialIcons from './SocialIcons';
 
 function Sidebar() {
   //WILL USE REACT-ROUTER OR AUTOMATION SCROLL
@@ -23,7 +18,7 @@ function Sidebar() {
         bg="dark"
         variant="dark"
         expand="lg"
-        className="justify-content-center flex-column"
+        className="flex-column fixed-left"
       >
         <div className="selfImage">
           <img
@@ -33,7 +28,7 @@ function Sidebar() {
           />
         </div>
         
-        <Navbar.Brand>Nima Movasseghi</Navbar.Brand>
+        <Navbar.Brand className="brand"> Nima Movasseghi </Navbar.Brand>
         <div>
           <FontAwesomeIcon icon={faGoogle} />
         </div>
@@ -67,37 +62,9 @@ function Sidebar() {
           </Nav.Item>
         </Nav>
 
-        <Nav className="fa-pull-right">
-         <Nav.Item data-aos="fade-left" data-aos-duration="3000" className="socialIcons">
-            <Nav.Link href="#">
-              <FontAwesomeIcon icon={faFacebook} />
-            </Nav.Link>
-          </Nav.Item>
+        {/* ICONS */}
+        <SocialIcons/>
 
-          <Nav.Item data-aos="fade-right" data-aos-duration="3000" className="socialIcons">
-            <Nav.Link href="#">
-              <FontAwesomeIcon icon={faTwitter} />
-            </Nav.Link>
-          </Nav.Item>
-
-          <Nav.Item data-aos="fade-left" data-aos-duration="3000" className="socialIcons">
-            <Nav.Link href="#">
-              <FontAwesomeIcon icon={faTwitch} />
-            </Nav.Link>
-          </Nav.Item>
-
-          <Nav.Item data-aos="fade-right" data-aos-duration="3000" className="socialIcons">
-            <Nav.Link href="#">
-              <FontAwesomeIcon icon={faInstagram} />
-            </Nav.Link>
-          </Nav.Item>
-
-          <Nav.Item data-aos="fade-left" data-aos-duration="3000" className="socialIcons">
-            <Nav.Link href="#">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
       </Navbar>
     </div>
   );
