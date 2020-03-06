@@ -2,3 +2,19 @@
     border: violet;
     border-style: solid;
 }
+
+#about{
+    border: purple;
+    border-style: dashed;
+}
+
+#resume{
+    border: rgba(219, 216, 23, 0.623);
+    border-style: dashed;
+}
+
+#projects{
+    border: rgb(128, 0, 0);
+    border-style: dashed;
+}
+

@@ -1,4 +1,27 @@
 .Sidebar{
     border: turquoise;
     border-style: solid;
+    height: 100%;
+}
+
+.navbar{
+    height: 100%;
+    width: auto;
+    position: fixed;
+    color: beige;
+}
+
+#self{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.emailId{
+    color: turquoise;
+}
+
+
+.socialIcons:hover{
+    font-size: larger;
 }
