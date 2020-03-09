@@ -1,6 +1,6 @@
 .Sidebar {
-        border: turquoise;
-        border-style: solid;
+        /* border: turquoise;
+        border-style: solid; */
         height: 70%;
         position: fixed;
         justify-content: center;
@@ -26,6 +26,10 @@
     overflow-x: hidden;
 }
 
+.navbar-brand{
+    padding-left: 20px;
+}
+
 .director{
     margin: 5px;
 }
@@ -34,10 +38,13 @@
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    padding-left:5px;
 }
 
 .emailId{
     color: turquoise;
 }
+
+
 
 

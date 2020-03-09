@@ -1,9 +1,11 @@
 .content{
     border: violet;
     border-style: solid;
+    padding: 300px;
+    justify-content: left;
 }
 
-#about{
+/* #about{
     border: purple;
     border-style: dashed;
 }
@@ -16,5 +18,5 @@
 #projects{
     border: rgb(128, 0, 0);
     border-style: dashed;
-}
+} */
 

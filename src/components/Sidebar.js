@@ -28,7 +28,7 @@ function Sidebar() {
           />
         </div>
         
-        <Navbar.Brand className="brand"> Nima Movasseghi </Navbar.Brand>
+        <Navbar.Brand> Nima Movasseghi </Navbar.Brand>
         <div>
           <FontAwesomeIcon icon={faGoogle} />
         </div>
@@ -59,6 +59,14 @@ function Sidebar() {
             className="director"
           >
             <Nav.Link href="#projects">Projects</Nav.Link>
+          </Nav.Item>
+         
+          <Nav.Item
+            data-aos="fade-left"
+            data-aos-duration="3000"
+            className="director"
+          >
+            <Nav.Link href="#home">Home</Nav.Link>
           </Nav.Item>
         </Nav>
 

@@ -1,19 +1,30 @@
 import React from "react";
 
+import Header from './Header.js';
+
 import '../css/contentSections.css';
 import { Container, Row, Col } from 'react-bootstrap';
+
+import Me from '../images/me.jpg'
 
 function About() {
   return (
     <div className="sections">
         <Container className="flex-rows">
           <Row>
+            <Col>
+              <Header>
+                <h2>My Story</h2>
+              </Header>
+            </Col>
+          </Row>
+          <Row>
             <Col sm={0}>
-              {/* <img src="" alt="imgAbout"/> */} <h1>IMAGE OR MINI CAROUSEL</h1>
+              <img id="me" src={Me} alt="imgAbout"/> 
             </Col>
             <Col>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac auctor augue mauris augue. Magna ac placerat vestibulum lectus mauris ultrices eros. Eu feugiat pretium nibh ipsum. Phasellus vestibulum lorem sed risus ultricies tristique. Eu consequat ac felis donec et odio pellentesque. Viverra justo nec ultrices dui sapien. Lacinia quis vel eros donec ac. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Gravida in fermentum et sollicitudin ac orci phasellus. Varius sit amet mattis vulputate enim nulla aliquet porttitor lacus. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Luctus accumsan tortor posuere ac ut consequat semper. Pellentesque eu tincidunt tortor aliquam. Consequat semper viverra nam libero justo laoreet sit amet. Pharetra magna ac placerat vestibulum lectus. Maecenas accumsan lacus vel facilisis volutpat. Id ornare arcu odio ut. Amet purus gravida quis blandit turpis. Vel turpis nunc eget lorem dolor sed viverra.
+                Hello! My name is Nima and first off thank you for visiting my page! I am 25 years old and graduated from California State University, East Bay with B.S. in Computer Science. My main interest in the field is Web Development primarily front-end. I love being able to go from a complete blank white page to a full responsive page that can be enjoyed on any device. Frameworks that I have fun working with are ReactJS and Angular. They provide effective ways to handle components and state managment, which are the main reasons they peaked my interest when looking up frameworks when I first got into web dev. I am far from perfect, but I hope your journey through my page gives a positive impression of what I am capable of and my attention to detail!
               </p>
             </Col>
           </Row>

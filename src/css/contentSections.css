@@ -1,3 +1,10 @@
 .sections{
     color: beige;
+    padding-top: 200px;
+}
+
+#me{
+    padding-left: 17px;
+    width: 400px;
+    height: 400px;
 }
