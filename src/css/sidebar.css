@@ -70,15 +70,16 @@
     }
 }
 
-@media only screen and (orientation: landscape){
+@media only screen and (max-width: 768px) and (orientation: landscape){
     .Sidebar {
-        height: 70%;
-        position: fixed;
+        height:90%;
+        width: 80%;
+        padding-left: 10px;
     }
 
     .navbar{
         height: 100%;
-        width: auto;
+        width: 100%;
         color: beige;
     }
     
