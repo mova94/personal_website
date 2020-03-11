@@ -87,3 +87,21 @@
         padding-left: 20px;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width:991px) and (orientation:landscape){
+    .Sidebar {
+        height:90%;
+        width: 80%;
+        padding-left: 10px;
+    }
+
+    .navbar{
+        height: 100%;
+        width: 100%;
+        color: beige;
+    }
+    
+    .navbar-brand{
+        padding-left: 20px;
+    }
+}
