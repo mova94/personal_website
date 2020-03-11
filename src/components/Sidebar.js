@@ -29,7 +29,7 @@ function Sidebar() {
         </div>
         
         <Navbar.Brand> Nima Movasseghi </Navbar.Brand>
-        <div>
+        <div className="googleIcon">
           <FontAwesomeIcon icon={faGoogle} />
         </div>
         <div>
