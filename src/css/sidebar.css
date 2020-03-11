@@ -34,6 +34,10 @@
     margin: 5px;
 }
 
+.director:hover{
+    text-decoration: underline;
+}
+
 #self{
     border-radius: 50%;
     width: 150px;

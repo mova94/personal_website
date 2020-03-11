@@ -6,8 +6,8 @@ import "../css/content.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 import About from "./About.js";
-import Resume from "./Resume.js";
-import Projects from "./Projects.js";
+import Journey from "./Journey.js";
+import Skills from "./Skills.js";
 import SkillCarousel from './SkillCarousel.js';
 
 function Content() {
@@ -37,22 +37,22 @@ function Content() {
       </Row>
 
       <Row 
-        id="resume" 
+        id="journey" 
         className="contentSection"
         data-aos="zoom-in-left"
         data-aos-duration="3000">
         <Col>
-          <Resume />
+          <Journey />
         </Col>
       </Row>
 
       <Row 
-        id="projects" 
+        id="skills" 
         className="contentSection"
         data-aos="flip-up"
         data-aos-duration="3000">
         <Col>
-          <Projects />
+          <Skills />
         </Col>
       </Row>
     </Container>

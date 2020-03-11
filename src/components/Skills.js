@@ -2,11 +2,19 @@ import React from "react";
 
 import '../css/contentSections.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import Header from './Header.js'
 
-function Projects() {
+function Skills() {
   return (
     <div className="sections">
       <Container className="flex-rows">
+          <Row>
+            <Col>
+              <Header pos="right">
+                <h2>Skills</h2>
+              </Header>
+            </Col>
+          </Row> 
           <Row>
             <Col sm={0}>
               {/* <img src="" alt="imgAbout"/> */} <h1>IMAGE OR MINI CAROUSEL</h1>
@@ -22,4 +30,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Skills;

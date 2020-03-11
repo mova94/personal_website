@@ -50,7 +50,7 @@ function Sidebar() {
             data-aos-duration="3000"
             className="director"
           >
-            <Nav.Link href="#resume">Resume</Nav.Link>
+            <Nav.Link href="#journey">Journey</Nav.Link>
           </Nav.Item>
 
           <Nav.Item
@@ -58,7 +58,7 @@ function Sidebar() {
             data-aos-duration="3000"
             className="director"
           >
-            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
           </Nav.Item>
          
           <Nav.Item
