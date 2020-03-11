@@ -69,3 +69,20 @@
         padding-left: 20px;
     }
 }
+
+@media only screen and (orientation: landscape){
+    .Sidebar {
+        height: 70%;
+        position: fixed;
+    }
+
+    .navbar{
+        height: 100%;
+        width: auto;
+        color: beige;
+    }
+    
+    .navbar-brand{
+        padding-left: 20px;
+    }
+}
