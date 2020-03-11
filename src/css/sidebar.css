@@ -23,8 +23,6 @@
 
 @media only screen and (max-width: 600px){
     .Sidebar{
-        border: red;
-        border-style: solid;
         padding-bottom: 100px;
     }
     
@@ -32,8 +30,6 @@
 
 @media only screen and (min-width: 600px){
     .Sidebar {
-        border: turquoise;
-        border-style: solid;
         height: 70%;
         position: fixed;
         justify-content: center;
