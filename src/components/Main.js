@@ -14,12 +14,12 @@ class Main extends React.Component {
   render() {
     return (
       <div className="Main">
-        <Container>
+        <Container fluid={true}>
           <Row>
-            <Col xs={12} md={3}>
+            <Col xs={12} sm={12} md={4} lg={4}>
               <Sidebar />
             </Col>
-            <Col xs={12} md={9}>
+            <Col xs={12} sm={12} md={8} lg={8}>
               <Content />
             </Col>
           </Row>

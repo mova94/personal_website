@@ -14,7 +14,7 @@ function Content() {
   return (
     <Container>
       <Row>
-        <Col sm={12}>
+        <Col>
           <div
             className="content"
             id="home"

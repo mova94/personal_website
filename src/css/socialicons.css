@@ -1,18 +1,24 @@
 
 /*mobile*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
     .socialIcons{
         padding: 20px;
     }
     
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 992px){
     .socialIcons{
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .socialIcons:hover{
         font-size: larger;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .socialIcons{
+        padding: 10px;
     }
 }
