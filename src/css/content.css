@@ -1,9 +1,19 @@
-.content{
-    border: violet;
-    border-style: solid;
-    padding: 300px;
-    justify-content: left;
+@media only screen and (max-width: 600px){
+    .content{
+        border: violet;
+        border-style: solid;
+    }
 }
+
+@media only screen and (min-width: 600px){
+    .content{
+        border: violet;
+        border-style: solid;
+        padding: 100px;
+    }
+}
+
+
 
 /* #about{
     border: purple;

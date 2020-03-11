@@ -12,9 +12,9 @@ import SkillCarousel from './SkillCarousel.js';
 
 function Content() {
   return (
-    <Container fluid="true">
+    <Container>
       <Row>
-        <Col>
+        <Col sm={12}>
           <div
             className="content"
             id="home"

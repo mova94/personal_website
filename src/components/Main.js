@@ -16,10 +16,10 @@ class Main extends React.Component {
       <div className="Main">
         <Container>
           <Row>
-            <Col sm={12} md={3}>
+            <Col xs={12} md={3}>
               <Sidebar />
             </Col>
-            <Col sm={12} md={9}>
+            <Col xs={12} md={9}>
               <Content />
             </Col>
           </Row>

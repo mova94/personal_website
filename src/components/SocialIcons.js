@@ -15,7 +15,7 @@ import "../css/socialicons.css";
 
 function SocialIcons() {
   return (
-    <Nav className="fa-pull-right">
+    <Nav className="flex-row" >
       <Nav.Item
         data-aos="fade-left"
         data-aos-duration="3000"
